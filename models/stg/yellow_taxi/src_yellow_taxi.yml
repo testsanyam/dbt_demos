@@ -5,4 +5,4 @@ sources:
     database: SANYAM_GOEL
     schema: DB_DWH
     tables:
-      - name: dmn_yellow
+      - name: '"dmn_yellow"'

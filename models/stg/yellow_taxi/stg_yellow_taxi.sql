@@ -17,7 +17,7 @@ with yellow_taxi as (
         "airport_fee",
         "Pickup_datetime",
         "Dropoff_datetime"
-    FROM SANYAM_GOEL.DB_DWH."dmn_yellow"
+    FROM {{ source('yellow_taxi','"dmn_yellow"')}}
 
 )
 

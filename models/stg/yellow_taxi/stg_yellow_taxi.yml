@@ -10,7 +10,7 @@ models:
               values:
                 - 1
                 - 2
-      
+
       - name: '"payment_type"'
         tests:
           - not_null
@@ -22,8 +22,3 @@ models:
                 - 4
                 - 5
                 - 6
-
-
-         
-
-      
